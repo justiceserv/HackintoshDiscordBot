@@ -21,7 +21,8 @@ client.on("message", async message => {
         }
         else if(args == "ocguide")
         {
-            
+            var funchelp = require("./functions/ocguide.js");
+            funchelp.OCGuide; 
         }
     }
 }); 
